@@ -1,0 +1,116 @@
+/*
+Headings: #082232
+
+Subheadings: #7db9dc
+
+Text: #0f1316
+
+Accent: #d3fafa
+
+Background: #fefdff
+
+background-color: rgba(254, 253, 255, 0.82);
+*/
+
+/*Special properties*/
+/*for centering*/
+.center {
+	text-align: center;
+}
+
+/*for giving elements a white background*/
+.background-needed {
+	background-color: rgba(254, 253, 255, 0.82);
+	padding: 10px;
+	border-radius: 10px;
+	margin: 5vh;
+}
+
+/*for rows of cards.
+a row of cards should be within a row class (from skeleton)
+there can be a maximum of three cards in a row.*/
+.card {
+	width: 33.33%;
+	max-width: 100%;
+	padding: 10px;
+	margin: 1rem 3rem;
+	position: relative;
+}
+
+/*text
+~~~~~~~*/
+h1 {
+	color: #082232;
+}
+
+h2, h3 {
+	color: #7db9dc;
+}
+
+body {
+	color: #0f1316;	
+	margin: 0 auto;
+	padding: 20px;
+	font-size: 1.8rem;
+	line-height: 2.5rem;
+}
+
+main {
+	max-width: 65rem;
+	margin: 0 auto;
+}
+
+a {
+	text-decoration: none;
+}
+
+/*footer
+~~~~~~~~*/
+
+.logo {
+	max-width: 12rem;
+	max-height: 12rem;
+}
+footer {
+	color: #d3fafa;
+	background-color: #082232;
+	padding: 5rem 3rem;
+	text-align: center;
+	/*margin properties*/
+	margin: 30vh -20px -200px -20px;
+}
+
+.footer-links {
+	list-style-type: none;
+}
+
+/*index page only
+~~~~~~~~~~~~~~~~~*/
+.head, #ready {
+	text-align: center;
+}
+
+.head-info {
+	height: 100vh;
+	margin-top: 20%;
+	font-weight: 900;
+	text-shadow: 3px 3px 3px #403f3f;
+}
+
+.head p {
+	font-weight: 900;
+	font-size: 2rem;
+}
+
+
+#how-build, #ready {
+	height: 90vh;
+}
+
+#what-build {
+	margin-bottom: 30vh;
+}
+
+#ready {
+	margin-top: 30vh;
+}

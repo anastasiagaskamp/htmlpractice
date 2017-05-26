@@ -1,0 +1,9 @@
+Headings: #082232
+
+Subheadings: #7db9dc
+
+Text: #0f1316
+
+Accent: #d3fafa
+
+Background: #fefdff
