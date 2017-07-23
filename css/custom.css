@@ -41,10 +41,12 @@ there can be a maximum of three cards in a row.*/
 ~~~~~~~*/
 h1 {
 	color: #082232;
+	font-weight: 700;
 }
 
 h2, h3 {
 	color: #7db9dc;
+	font-weight: 600;
 }
 
 body {
