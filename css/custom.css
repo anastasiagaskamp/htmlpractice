@@ -116,3 +116,7 @@ footer {
 #ready {
 	margin-top: 30vh;
 }
+/*capitalize footer text*/
+footer.row{
+	text-transform: capitalize;
+}
